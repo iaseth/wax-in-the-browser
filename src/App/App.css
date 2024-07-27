@@ -18,4 +18,14 @@ h6, .h6, .p6 { @apply text-xs; }
 .H5, .P5 { @apply text-4xl; }
 .H6, .P6 { @apply text-3xl; }
 
+table {
+	@apply bg-zinc-950 w-full text-right;
+}
 
+table tr {
+	@apply border-b border-zinc-800 last:border-b-0;
+}
+
+table tr > td {
+	@apply px-3 py-4 border-r border-zinc-800 last:border-r-0;
+}
